@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div{
+			width:200px;
+			height:200px;
+			margin: 30px auto;
+		}
+		.div1{
+			background: red;
+			opacity: 0;    /*没有让标签从页面消失*/
+			opacity: 1;	
+		}
+		.div2{
+			background: green;
+			display: none;   /*让标签从页面消失*/
+			display: block;
+		}
+		.div3{
+			background: blue;
+			visibility:hidden; /*没有让标签从页面消失*/
+			visibility: visible;
+		}
+		.div4{
+			background:pink;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1"></div>
+	<div class="div2"></div>
+	<div class="div3"></div>
+	<div class="div4"></div>
+</body>
+</html>

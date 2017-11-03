@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>蓝鸥官网首页</title>
+	<style>
+		body,html{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+		form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+		img{border:0;}
+		ul,li{list-style-type:none;}
+		a{color:#00007F;text-decoration:none;}
+		a:hover{text-decoration:none;}
+		.page_top{
+			/*border:1px solid red;*/
+			position:fixed;
+			top:0;
+			z-index: 100;
+			width:100%;
+		}
+		.page_title{
+			height:80px;
+			/*border:1px solid;*/
+			width:1400px;
+			margin:0 auto;
+		}
+		.page_title img{
+			margin-top: 20px;
+		}
+		.test{
+			font-size: 20px;
+			height:80px;
+			line-height:80px;
+			display: inline-block;
+			vertical-align: top;
+			margin-left:30px;
+			margin-right:-30px;
+		}
+		.test1{
+			font-size:18px;
+			height:80px;
+			line-height:80px;
+			display: inline-block;
+			vertical-align: top;
+			margin-left:50px;
+			cursor:pointer;
+		}
+		.top_rightDiv{
+			display: inline-block;
+			float:right;
+		}
+		.second_div{
+			background:rgba(0,0,0,0.2);
+		}
+		.second_div_one{
+			width:1400px;
+			height:400px;
+			margin:0 auto;
+			border:1px solid;
+			margin-top:80px;
+		}
+		.div_one{
+			width:300px;
+			height:400px;
+			background-color: lightblue;
+			display:inline-block;
+		}
+		.one_right{
+			float:right;
+		}
+		.one_left{
+			background:rgba(0,0,0,0.5);
+		}
+		.one_left>p{
+			padding-left:50px;
+			line-height:40px;
+			font-size:18px;
+			color:white;
+			cursor:pointer;
+		}
+		.one_left p:hover{
+			background-color:green;
+		}
+		.one_left>p>span{
+			float:right;
+			padding-right: 50px;
+
+		}
+		.firstp{
+			margin-top:20px;
+		}
+		.left_side{
+			width: 100px;
+			position: fixed;
+			left:0;
+			top:130px;
+		}
+		.left_side p{
+			height:100px;
+			background-color:blue;
+		}
+		.left_side p:hover{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<div class="page_top">
+		<div class="page_title">
+			<img src="img/logo.png" alt="">
+			<span class="test">全国校区</span>
+			<span class="test1">切换城市</span>
+			<div class="top_rightDiv">
+				<span class="test1"><a href="">首页</a></span>
+				<span class="test1"><a href="">就业喜报</a></span>
+				<span class="test1"><a href="">名师团队</a></span>
+				<span class="test1"><a href="">免费公开课</a></span>
+				<span class="test1"><a href="">报名抢座</a></span>
+				<span class="test1"><a href="">关于我们</a></span>
+			</div>
+		</div>
+	</div>
+	<div class="left_side">
+		<p>报名咨询</p>
+		<p>定岗直招</p>
+		<p>就业保障</p>
+		<p>课程大纲</p>
+		<p>0元入学</p>
+		<p>全国校区</p>
+		<p>本月优惠</p>
+	</div>
+	<div class="second_div">
+		<div class="second_div_one">
+			<div class="div_one one_left">
+				<p class="firstp">JavaEE开发<span>></span></p>
+				<p>大数据开发<span>></span></p>
+				<p>VR/AR/游戏开发<span>></span></p>
+				<p>3D游戏场景设计师<span>></span></p>
+				<p>HTML5全栈开发<span>></span></p>
+				<p>PHP全栈开发<span>></span></p>
+				<p>Web安全攻防开发<span>></span></p>
+				<p>Android开发<span>></span></p>
+				<p>产品经理培训<span>></span></p>
+			</div>
+			<div class="div_one one_right">
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	for(var i=0;i<=100;i++){
+		document.write(i+"<br>");
+	}
+</script>

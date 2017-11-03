@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			/*标签选择器*/
+			div{
+				background-color:yellow;
+			}
+			/*通配选择器*/
+			*{
+				margin:0;
+				padding:0;
+			}
+			/*class类选择器*/
+			.div3{
+				background-color:pink;
+			}
+			.div4{
+				height:30px;
+			}
+			/* id选择器的类名必须是唯一的 */
+			#div5{
+				background-color:purple;
+			}
+			
+			p{
+				background-color:green;
+			}
+			/*父子选择器*/
+			div>p{
+				background-color:blue;
+			}
+			/*后代选择器*/
+			div p{
+				background-color:red;
+			}
+			/*群组选择器*/
+			div,p{
+				background-color:lightgreen;
+			}
+		</style>
+	</head>
+	<body>
+		<p>this is p</p>
+		<div>Division</div>
+		<div>Division2</div>
+		<div class="div3">Division3</div>
+		<div class="div3 div4">Division4</div>
+		<div id="div5">Division5</div>
+		<div>
+			<a href="">
+				<p>我是a里面的p标签</p>
+			</a>
+			<p>我是div里面的p标签</p>
+		</div>
+		<p>this is p</p>
+	</body>
+</html>

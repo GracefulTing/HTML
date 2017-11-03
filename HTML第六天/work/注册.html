@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<style>
+		form{
+			width:750px;
+			height:660px;
+			border:1px solid;
+		}
+
+		span{
+			font-size:18px;
+			line-height:45px;
+
+		}
+		.red{
+			color:red;
+			margin-left:55px;
+		}
+		input{
+			width:250px;
+			height:20px;
+		}
+		.name{
+			background-color:#f4ffd7;
+		}
+		button{
+			background-color:green;
+			color:white;
+			margin-left:115px;
+			margin-top:10px;
+		}
+		a{
+			text-decoration:none;
+		}
+		.x{
+			margin-left:30px;
+		}
+		#secret{
+			margin-left:70px;
+		}
+		.m{
+			margin-left:30px;
+		}
+		.t{
+			margin-left:65px;
+		}
+		.a{
+			margin-left:10px;
+			float:left;
+		}
+		.e{
+			margin-left:55px;
+		}
+		#a{
+			margin-top:15px;
+		}
+		.ex{
+			font-size:15px;
+			margin-left:105px;
+			line-height:5px;
+		}
+		.dash{
+			border:1px dashed;
+			width:260px;
+			margin-left:105px;
+			margin-top:15px;
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<span class="red">*</span><span>昵称:</span> 	
+		<input type="text" class="name"> 
+		&nbsp;&nbsp;
+		<span class="name">4-20字符,支持中英文,数字,"_"或减号</span><br>
+		<span class="m">真实姓名:</span>
+		<input type="text">  
+		<select name="" id="" class="x">
+			<option value="">所有人可见</option>
+			<option value="">仅自己可见</option>
+			<option value="">指定人可见</option>
+		</select><br>
+		<span class="red m">*</span>  <span>所在地: </span>
+		<select name="" id="">
+			<option value="">北京</option>
+			<option value="">山西</option>
+		</select>
+		<select name="" id="">
+			<option value="">朝阳区</option>
+			<option value="">昌平区</option>
+		</select><br>
+		<span class="t">生日:</span>
+		<select name="" id="">
+			<option value="">2009</option>年
+		</select>
+		<select name="" id="">
+			<option value="">01</option>月
+		</select>
+		<select name="" id="">
+			<option value="">01</option>日
+		</select>
+		<select name="" id="secret" >
+			<option value="">保密</option>
+		</select>
+		<br>
+		<span class="m">博客地址:</span>
+		<input type="text">
+		<select name="" id="" class="x">
+			<option value="">所有人可见</option>
+		</select>
+		<br>
+		<span class="m">常用邮箱:mofeiangmotao@sina.com</span>&nbsp;&nbsp;<a href="">修改</a>
+		<br>
+		<span class="t">QQ:</span>
+		<input type="text">
+		<select name="" id="" class="x">
+			<option value="">我关注的人可见</option>
+		</select>
+		<br>
+		<span class="e">EMS:</span>
+		<input type="text">
+		<select name="" id="" class="x">
+			<option value="">我关注的人可见</option>
+		</select>
+		<br>
+		<span class="a">一句话介绍:</span>
+		<textarea name="" id="a" cols="40" rows="5" style="resize:none;""></textarea>
+		<div class="dash"></div>
+		<br>	
+		<span class="ex">以下信息,可作为通过客服取回账号的依据</span><br>
+		<span class="m">证件类型:身份证</span>
+		<br>
+		<span class="m">证件号码:</span>
+		<input type="text"><br>
+		<button>保存</button>
+
+	</form>
+</body>
+</html>

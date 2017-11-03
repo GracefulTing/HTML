@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding: 0;
+		}
+		.div1{
+			width:200px;
+			height:100px;
+			background-color: red;
+			position:fixed;
+		/*	left:50px;*/
+			top:0;
+			left:0;
+		}
+		.div2{
+			height:100px;
+			background-color: yellow;
+			margin-top: 100px;
+		}
+	</style>
+</head>
+<body>
+	<!-- 
+	position:fixed固定定位
+	针对参照点发生改变,脱离文档流,留出空白的位置会由后面的内容自动填充,但是位置是固定的,即使页面发生滚动,位置也不会改变.
+	主要用于页面的页头的导航栏和广告栏.
+	-->
+	<div class="div1"></div>
+	<div class="div2"></div>
+</body>
+</html>
+<script>
+	for(var i=0;i<=100;i++){
+		document.write(i+"<br>");
+	}
+</script>

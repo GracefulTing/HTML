@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		div{
+			border:1px solid;
+			height:40px;
+			width:100px;
+			padding: 20px;
+			background-color:lightgreen;
+			text-align: center;
+			margin:50px auto;
+		}
+		p{
+			line-height:40px;
+		}
+		div:hover{
+			background-color:yellow;
+		}
+		div:hover p{
+			color:red;
+			font-size:20px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<p>特殊情况p</p>
+		特殊情况div
+	</div>
+
+	
+	<!-- <div style="background-color: lightgreen;text-align: center;overflow: hidden;">
+		<span style="background-color: red;line-height:40px;">行高设置</span><br>
+		<span style="background-color: red;line-height:40px;margin-top:100px;display: inline-block;">行高设置</span>
+	</div> -->
+
+	<!-- 兄弟间margin:上下取最大值，左右取和 -->
+	<!-- <div style="height:10px;width:30px;display:inline-block;margin-right:20px;background-color: green;"></div>
+	<div style="height:10px;width:30px;display:inline-block;margin-left:20px;background-color: red;"></div> -->
+</body>
+</html>
